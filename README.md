@@ -1,15 +1,15 @@
-# Dokumentace projektu
+Project Documentation
+Project Description
 
-## Popis zadání práce
-Cílem této práce je vytvoření jednoduché 2D arkádové hry v prostředí Unity. Hráč ovládá kouli, která se pohybuje herním světem, sbírá prsteny a bonusy, vyhýbá se překážkám a interaguje s různými objekty, jako jsou například vodní plochy či nepřátelské elementy. Hra obsahuje systém úrovní, správu životů a dynamické řízení kamery.
+The aim of this project is to create a simple 2D arcade game in the Unity environment. The player controls a ball that moves through the game world, collects rings and bonuses, avoids obstacles, and interacts with various objects such as water surfaces or enemy elements. The game includes a level system, life management, and dynamic camera control.
+Brief Problem Solution Overview
 
-## Velmi stručný popis řešení problému
-Hra je implementována v jazyce C# ve frameworku Unity. Načítání úrovní je realizováno pomocí textových souborů, ve kterých jednotlivé znaky reprezentují specifické herní objekty (např. `#` pro překážky, `R` pro prsteny, `W` pro vodu apod.). Pohyb a fyzikální interakce koule jsou zajištěny pomocí vestavěného physics enginu Unity, přičemž dynamické sledování objektu pomocí kamery je realizováno pomocí algoritmu SmoothDamp. I když existují i jiné přístupy, jako je optimalizovaná detekce kolizí nebo alternativní metody parsování úrovní, zvolená implementace se vyznačuje jednoduchostí a přehledností.
+The game is implemented in C# using the Unity framework. Level loading is done via text files, where individual characters represent specific game objects (e.g., # for obstacles, R for rings, W for water, etc.). The movement and physical interaction of the ball are handled by Unity’s built-in physics engine, while dynamic camera tracking is implemented using the SmoothDamp algorithm. Although other approaches exist—such as optimized collision detection or alternative level parsing methods—the chosen implementation stands out for its simplicity and clarity.
+Author
 
-## Autor
-**Gerasymovych Alona**
+Gerasymovych Alona
+Academic Year and Field of Study
 
-### Akademický rok a studijní zaměření
-- **Akademický rok:** 2024/2025  
-- **Studijní zaměření:** Aplikovaná informatika
+    Academic Year: 2024/2025
 
+    Field of Study: Applied Informatics
